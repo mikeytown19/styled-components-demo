@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import styled from '@emotion/styled';
+import styled from 'styled-components';
 const Button = styled.a`
   display: inline-block;
   border-radius: 3px;
@@ -13,7 +13,7 @@ export default function App() {
   const randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
+      <h1>Hello Styled Components!</h1>
       {[...Array(1000).keys()].map((item) => (
         <Button color={'#' + Math.floor(Math.random() * 16777215).toString(16)}>
           {' '}
