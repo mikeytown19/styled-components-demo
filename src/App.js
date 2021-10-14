@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import styled from 'styled-components';
+import styled from '@emotion/styled';
 const Button = styled.a`
   display: inline-block;
   border-radius: 3px;
